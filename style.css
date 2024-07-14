@@ -85,7 +85,7 @@ header{
 /*MENU / NAVEGAÇÃO*/
 
 nav{
-    max-width: 1000px;
+    max-width: 1300px;
     height: 80px;
     display: flex;
     align-items: center;
@@ -161,6 +161,18 @@ main{
     justify-content: center;
 }
 
+.direita {
+    border-radius: 50%;
+    background-color: #b8b6b68c;
+    padding: 5px 10px;
+}
+ 
+.esquerda{
+    border-radius: 50%;
+    background-color: #b8b6b68c;
+    padding: 5px 10px;
+}
+
 
 /*ACESSO RÁPIDO*/
 .acesso-rapido{
@@ -196,4 +208,72 @@ main{
     font-size: 1.2rem;
     padding-left: 10px;
 }
+
+h1{
+    text-align: center;
+    padding: 30px;
+    font-family: var(--font-padrao);
+    color: rgb(82, 82, 82);
+}
+
+/*Estilização do Increva-se*/
+
+.inscreva{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 1000px;
+}
+
+.inscreva form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form input{
+    width: 300px;
+    height: 50px;
+    border-radius: 25px;
+    padding-left: 10px;
+    font-family: var(--font-padrao);
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.527);
+    margin-left: 22px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.input-bolinha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    max-width: 1000px;
+}
+
+.input-bolinha input{
+    width: 20px;
+    height: 20px;
+}
+
+.input-bolinha label{
+    margin: 0px 15px;
+}
+
+.input-bolinha label a{
+    color: black;
+}
+
+.input-bolinha button{
+    background-color: var(--cor-azul);
+    color: white;
+    border: none;
+    width: 150px;
+    height: 35px;
+    font-family: var(--font-padrao);
+    font-size: 1.2rem;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
 
